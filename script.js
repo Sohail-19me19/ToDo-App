@@ -10,6 +10,10 @@ button.addEventListener("click", function Addtask() {
     {
         let li = document.createElement("li");
         li.innerHTML = activity.value;
+        
+        // clear input box
+        activity.value = ""
+        
         taskContainer.appendChild(li);
         let icon = document.createElement("span");
         icon.innerHTML = "\u00d7";
