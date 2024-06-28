@@ -32,5 +32,5 @@ button.addEventListener("click", function Addtask() {
     }
     
 })
-console.log(tasks);
+
 
